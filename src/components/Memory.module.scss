@@ -1,0 +1,17 @@
+.memory{
+    border: 2px solid red;
+    height: 70vh;
+    width: 80%;
+    margin-top: 2rem;
+}
+$cell-dim : 35px;
+.cell{
+    width: $cell-dim;
+    height: $cell-dim;
+    display: inline-block;
+    outline: 1px solid brown;
+}
+
+.row{
+    height: $cell-dim;
+}
